@@ -1,0 +1,27 @@
+This is my NotePad for all ideas needed to acomplish this task.
+
+I want to design my personal Navigation Bar - very simple : my logo MK, About Me, Portfolio, Blog, Contact
+I will use Display Flex for it, some shadow to give 3d view and sliding animation with changing color when hover above
+
+Main goal is to do this website responsive and accessible to all viewers with standards from WCAG
+
+I'm usign React and Bootstrap as a training and showing that i can learn any framework choosen by company.
+
+Colors are not super important at start ( This have many times waste way to much of my time )
+
+Layout will be simple, it's important for me to have a place where i can insert my posts and keep my projects in one place
+
+What else do i have to think before starting to write code? 
+
+ALL TASKS TO DO: the numeration is withour special order
+
+1. Navigation Bar
+2. Welcoming Sector with sliding pictures and main header
+3. Short story sector with button to blog action
+4. Portfolio sector with button to full portfolio view
+5. Contact section with fully working FORM to send me an email, invitation to instagram, facebook, my phone number and when clicking 
+copied to dashboard
+6. Personal Footer can be bigger like i've seen many times with SITE MAP, all contact to social media, copyrights
+7. Create a simple BLOG, i will use some template examples with main menu to all blogs i've written and pretty much it, the ability
+to go to each individual post
+8. 

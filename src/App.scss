@@ -1,0 +1,17 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navi {
+    animation: slidingIN 2s ease-in-out infinite;
+    transition: all;
+}
+@keyframes slidingIN {
+    0%, 100% {
+        background-color: yellow;
+    }
+}
