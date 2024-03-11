@@ -7,11 +7,33 @@
     padding: 0;
 }
 .navi {
-    animation: slidingIN 2s ease-in-out infinite;
-    transition: all;
+    height: 2rem;
+    background-color: #D4AF37;
 }
-@keyframes slidingIN {
-    0%, 100% {
-        background-color: yellow;
-    }
+
+.shrink_me {
+    width: 5rem;
+    height: 2.5rem;
+}
+.shrink_me > a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.shrink_me:hover {
+    background-color: #D4AF37;
+    box-shadow: 0px 0px 25px 5px;
+    border: none;
+}
+.logo {
+    box-shadow: 0 0 15px 15px;
+}
+.btn-color {
+    background-color: #333333;
+    border: #444444;
+}
+.bg-photo {
+    background: url(/src/public/background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
 }

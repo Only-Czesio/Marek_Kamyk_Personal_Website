@@ -1,0 +1,48 @@
+$spacer : 1rem;
+.underscore {
+    content: '';
+    width: 0;
+    background-color: #D4AF37;
+    height: 0.3rem;
+    transition: width 1.5s ease-in-out;
+}
+.underscore-active {
+    width: 30rem;
+}
+.white-text {
+    color: linen;
+}
+.introduction {
+    width: 50%;
+    height: 45%;
+    background: rgba(0,0,0,50%);
+    margin: auto;
+}
+.gold {
+    color:#D4AF37;
+}
+.black-gold {
+    background: -webkit-linear-gradient(180deg, rgba(0,0,0,100%) 50%, hsl(46, 65%, 52%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    font-display:inherit;
+}
+.darker-bg {
+    background: linear-gradient(120deg,rgba(0,0,0,50%),hsl(46, 65%, 52%))
+}
+.intro-article {
+    height: 16rem;
+    border-radius: 12px;
+    padding: 1rem;
+}
+.pic {
+    height: 30rem;
+}
+.btn-mine {
+    background-color : #48D1CC;
+    color: black;
+}
+.btn-mine:hover {
+    background-color: #D4AF37;
+}
