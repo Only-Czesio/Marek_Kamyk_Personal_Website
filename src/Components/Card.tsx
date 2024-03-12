@@ -15,7 +15,7 @@ export default function Card({ cardData } : { cardData : CardData}) {
     return(
         <>
           <div className="card" id={cardID}>
-            <img className="logo/photo" src={logo} alt={logoAlt}></img>
+            <img className="logo" src={logo} alt={logoAlt}></img>
             <div className="title gold">{title}</div>
             <div className="description">{description}</div>
           </div>

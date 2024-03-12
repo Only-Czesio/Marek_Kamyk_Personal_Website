@@ -1,5 +1,5 @@
 import Card from './Card'
-import { myTeacher, freeCodeCamp, JerzyGreborz, KevinPowell, JadJoubran, StevenSkiena } from './cardsData'
+import { myTeacher, freeCodeCamp, JerzyGrebosz, KevinPowell, JadJoubran, StevenSkiena } from '../cardsData'
 import './SpecialThanks.scss'
 
 export default function SpecialThanks() {
@@ -10,7 +10,7 @@ export default function SpecialThanks() {
           <div className="card-container snaps-inline">
             <Card cardData={myTeacher}/>
             <Card cardData={freeCodeCamp} />
-            <Card cardData={JerzyGreborz} />
+            <Card cardData={JerzyGrebosz} />
             <Card cardData={KevinPowell} />
             <Card cardData={JadJoubran} />
             <Card cardData ={StevenSkiena} />

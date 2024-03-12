@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import pic from './public/animatedMe.jpg'
+import pic from '../public/animatedMe.jpg'
 import './Introduction.scss'
 
 export default function Introduction() {
@@ -19,7 +19,7 @@ export default function Introduction() {
     return(
         <>
         <section className='introduction d-flex flex-column justify-content-center align-items-center '>
-            <h1 className="gold">Hi, I'm Kamyk Marek</h1>
+            <h1 className="gold bigger">Hi, I'm Kamyk Marek</h1>
             <p className="white-text">I'm currently looking for a job in IT. Contact me if you have some offer for me</p>
             <div className={`underscore ${isActive ? 'underscore-active' : ''}`}></div>
         </section>

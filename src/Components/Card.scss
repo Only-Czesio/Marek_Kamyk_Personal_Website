@@ -1,4 +1,4 @@
-@import './allVariables.scss';
+@import '../allVariables.scss';
 
 .card {
     height: $default-size * 4;
@@ -10,10 +10,11 @@
     padding: $padding-defualt;
     background: rgba(0,0,0,50%);
     border-radius: 12px;
-    img {
+    .logo {
         inline-size: 100%;
-        aspect-ratio: 16 / 9;
-        object-fit:contain;
+        aspect-ratio: 4 / 3;
+        object-fit: contain;
+        border-radius: 12px;
     }
     .title {
         font-size: 24px;
