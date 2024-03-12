@@ -1,0 +1,25 @@
+@import './allVariables.scss';
+
+.head {
+    margin: 2rem 0px;
+    text-align: center;
+}
+
+.card-container {
+    background: transparent;
+    background-color: transparent;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 21%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    gap: $gap-default;
+    scrollbar-width: none;
+}
+.snaps-inline {
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: $gap-default;
+}
+.snaps-inline > * {
+    scroll-snap-align: start;
+}
