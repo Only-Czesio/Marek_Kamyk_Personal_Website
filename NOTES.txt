@@ -25,3 +25,40 @@ copied to dashboard
 7. Create a simple BLOG, i will use some template examples with main menu to all blogs i've written and pretty much it, the ability
 to go to each individual post
 8. 
+
+Help from Kevin Powell to scroll horizontally my card elements
+on mail container
+I will use :
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 25%;(This i may change depending on what size i want from my cards);
+    // Better to use 23% (any not dividible by 100) to see the content that there is more cards
+    gap: 1rem or anything;
+    overflow-x: auto;
+    //How to do automatic slow scroll animation?
+    overscroll-behavior-inline: contain;
+    //Thanks to this you cannot scroll to far and snaping whole page
+
+on cards i could use :
+    display: grid;
+    grid-template;rows: min-content;
+    gap: choose wisly
+    padding: variable for sizing
+    background: some bg-color for cards
+    border-radius: some border radius
+
+cards > img {
+    inline-size: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+
+}
+.snaps-inline {
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: variable for sizing
+    
+}
+
+.snaps-inline > * {
+    scroll-snap-align: start or end or center
+}

@@ -1,0 +1,26 @@
+@import '../allVariables.scss';
+
+.footer {
+    height: 50vh;
+    width: 100%;
+    padding: $padding-defualt;
+    div {
+        background-color: rgba(0,0,0,10%);
+        height: 40vh;
+        width: 25rem;
+        border-radius: 24px;
+        padding: $padding-defualt;
+    }
+    .siteMap {
+        a {
+            color: $main-color;
+            text-decoration-thickness: 0.5px;
+        }
+    }
+}
+
+.blackFoot {
+    text-align: center;
+    background-color: black;
+    color: linen;
+}

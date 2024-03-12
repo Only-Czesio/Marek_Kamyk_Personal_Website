@@ -1,5 +1,5 @@
-import './App.scss';
-import logo from './public/LOGO.jpg'
+import '../App.scss';
+import logo from '../public/LOGO.jpg'
 
 export default function NavigationBar() {
   return (
