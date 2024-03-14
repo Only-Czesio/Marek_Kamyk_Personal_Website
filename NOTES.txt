@@ -15,8 +15,8 @@ What else do i have to think before starting to write code?
 
 ALL TASKS TO DO: the numeration is withour special order
 
-1. Navigation Bar
-2. Welcoming Sector with sliding pictures and main header
+1. Navigation Bar -- Partly Done
+2. Welcoming Sector with sliding pictures and main header  -- partly done
 3. Short story sector with button to blog action
 4. Portfolio sector with button to full portfolio view
 5. Contact section with fully working FORM to send me an email, invitation to instagram, facebook, my phone number and when clicking 
