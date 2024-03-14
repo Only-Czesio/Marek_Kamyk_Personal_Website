@@ -1,22 +1,25 @@
 import './Card.scss'
 
+
 interface CardData {
         cardID : string,
-        logo : string,
-        logoAlt : string,
+        photo : string,
+        photoAlt : string,
         title : string,
         description: string
 }
 export default function Card({ cardData } : { cardData : CardData}) {
 
-    const { cardID, logo, logoAlt, title, description } = cardData;
+    const { cardID, photo, photoAlt, title, description } = cardData;
+
+
     
 
     return(
         <>
-          <div className="card" id={cardID}>
-            <img className="logo" src={logo} alt={logoAlt}></img>
-            <div className="title gold">{title}</div>
+          <div className="scroller-inner card d-flex flex-column justify-content-around" id={cardID} >
+            <img className="photo" src={photo} alt={photoAlt}></img>
+            <div className="title">{title}</div>
             <div className="description">{description}</div>
           </div>
         </>

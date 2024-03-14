@@ -2,22 +2,20 @@
 
 .card {
     height: $default-size * 4;
-    width: $default-size * 2;
-    display: grid;
-    grid-template-rows: min-content;
-    color: linen;
-    gap: $gap-default;
-    padding: $padding-defualt;
-    background: rgba(0,0,0,50%);
+    width: $default-size * 3.5;
+    color: black;
+    padding: $padding-default;
+    background: hsla(55, 38%, 94%, 0.9);
     border-radius: 12px;
-    .logo {
+    .photo {
         inline-size: 100%;
+        object-fit:scale-down;
         aspect-ratio: 4 / 3;
-        object-fit: contain;
-        border-radius: 12px;
     }
     .title {
         font-size: 24px;
+        color: darkgoldenrod;
         font-weight: bolder;
+        margin-bottom: 1rem;
     }
 }

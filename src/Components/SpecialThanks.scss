@@ -1,20 +1,23 @@
 @import '../allVariables.scss';
 
 .head {
-    margin: 2rem 0px;
+    margin: 2rem 45rem;
+    border-radius: 24px;
     text-align: center;
+    font-weight: 900;
+    font-size: 48px;
+    background: hsla(60, 7%, 5%, 0.8);
 }
 
 .card-container {
-    background: transparent;
-    background-color: transparent;
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 21%;
     overflow-x: auto;
     overscroll-behavior-inline: contain;
     gap: $gap-default;
-    scrollbar-width: none;
+    scrollbar-width: 5px;
+    height: 50rem;
 }
 .snaps-inline {
     scroll-snap-type: inline mandatory;
@@ -22,4 +25,17 @@
 }
 .snaps-inline > * {
     scroll-snap-align: start;
+}
+::-webkit-scrollbar {
+    width: 0;
+}
+::-webkit-scrollbar-track {
+    background: hsla(50 75% 50%);
+    border-radius: 100vw;
+    margin-block: .5em;
+}
+::-webkit-scrollbar-thumb {
+    background: hsl(187, 79%, 46%);
+    border-radius: 100vw;
+    margin-block: .5em;
 }
