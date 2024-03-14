@@ -14,7 +14,7 @@ export default function Card({ cardData } : { cardData : CardData}) {
 
 
     
-
+  // Change display flex to display grid
     return(
         <>
           <div className="scroller-inner card d-flex flex-column justify-content-around" id={cardID} >

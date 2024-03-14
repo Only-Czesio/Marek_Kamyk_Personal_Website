@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-    <div id='start' className="bg-photo vh-100">
+    <div id='start' className="bg-photo">
       <NavigationBar></NavigationBar>
       <Introduction></Introduction>
       <SpecialThanks></SpecialThanks>

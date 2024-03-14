@@ -1,7 +1,7 @@
 @import '../allVariables.scss';
 
 .head {
-    margin: 2rem 45rem;
+    margin: 2rem 20rem;
     border-radius: 24px;
     text-align: center;
     font-weight: 900;
@@ -12,12 +12,11 @@
 .card-container {
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: 21%;
     overflow-x: auto;
     overscroll-behavior-inline: contain;
     gap: $gap-default;
     scrollbar-width: 5px;
-    height: 50rem;
+    height: 40rem;
 }
 .snaps-inline {
     scroll-snap-type: inline mandatory;
