@@ -36,7 +36,7 @@ export default function Introduction() {
                 <p>and maybe give me a chance.</p>
                 <p>I want to bring value to people lifes</p>
             </div>
-            <button className='btn white-text btn-mine mb-3'>About me</button>
+            <button className='btn white-text btn-mine mb-3'>Portfolio</button>
             <button className='btn white-text btn-mine'>Blog</button>
             </div>
         </section>

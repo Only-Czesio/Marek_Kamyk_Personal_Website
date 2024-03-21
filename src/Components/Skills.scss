@@ -1,0 +1,71 @@
+@import '../allVariables.scss';
+:root {
+
+    --animation-duration: 20s;
+    --animation-direction: forwards;
+}
+
+.section-skills {
+    display: grid;
+    text-align: center;
+    min-block-size: 100vh;
+    place-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.125rem;
+}
+.tag-list {
+    margin: 0;
+    padding-inline: 0;
+    list-style: none;
+}
+
+.tag-list li {
+    padding: 1rem;
+    background: $main-color;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem -0.25rem black;
+}
+.scroller {
+    max-width: 800px;
+    margin: 5rem 0;
+}
+.scroller__inner {
+    display: flex;
+    padding-block: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.scroller[data-animated='true'] {
+    overflow: hidden;
+    mask: linear-gradient(
+        90deg,
+        transparent,
+        white 20%,
+        white 80%,
+        transparent
+    );
+}
+.scroller[data-animated="true"] .scroller__inner {
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite;
+}
+.scroller[data-direction="right"] {
+    --animation-direction: reverse;
+}
+.scroller[data-direction="left"] {
+    --animation-direction: forwards;
+}
+.scroller[data-speed="fast"] {
+    --animation-duration: 20s;
+}
+.scroller[data-speed="slow"] {
+    --animation-duration: 60s;
+}
+
+@keyframes scroll {
+    to {
+        transform: translateX(calc(-50% - 0.5rem));
+    }
+}

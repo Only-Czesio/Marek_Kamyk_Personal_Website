@@ -4,7 +4,7 @@
     height: 50vh;
     width: 100%;
     padding: $padding-default;
-    div {
+    .footer-container {
         background-color: rgba(0,0,0,10%);
         height: 40vh;
         width: 25rem;
@@ -23,4 +23,7 @@
     text-align: center;
     background-color: black;
     color: linen;
+}
+.footer > * {
+    text-align: center;
 }
