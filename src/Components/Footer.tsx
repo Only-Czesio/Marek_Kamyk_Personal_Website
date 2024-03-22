@@ -35,7 +35,7 @@ export default function Footer() {
                     <FontAwesomeIcon icon={faGithub} /> Github
                     </div>
                     <div>
-                    <FontAwesomeIcon icon={faEnvelope} />E-mail me
+                    <FontAwesomeIcon icon={faEnvelope} /> E-mail me
                     </div>
                     
                 </div>
