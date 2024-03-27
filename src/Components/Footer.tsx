@@ -19,10 +19,10 @@ export default function Footer() {
                 </div>
                 <div className="footer-container siteMap d-flex flex-column gap-3 justify-content-center">
                     <h2 className='gold'>SiteMap :</h2>
-                    <a href="#start">I will take you to the start</a>
-                    <a href="#blog">Let's go read my blog</a>
-                    <a href="#portfolio">I can show you my projects</a>
-                    <a href="#contact">Contact me, let's talk</a>
+                    <a href="/Marek_Kamyk_Personal_Website">I will take you to the start</a>
+                    <a href="/blog">Let's go read my blog</a>
+                    <a href="/portfolio">I can show you my projects</a>
+                    <a href="/Marek_Kamyk_Personal_Website/contact">Contact me, let's talk</a>
                 </div>
                 <div className="footer-container socialMedia d-flex gap-3 flex-column justify-content-center align-items-center">
                     <div>
