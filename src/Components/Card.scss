@@ -5,7 +5,7 @@
     width: $default-size * 3.5;
     color: black;
     padding: $padding-default;
-    background: hsla(55, 38%, 94%, 0.9);
+    background: rgba(0,0,0,50%);
     border-radius: 12px;
     .photo {
         inline-size: 100%;

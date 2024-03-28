@@ -20,7 +20,7 @@ export default function Card({ cardData } : { cardData : CardData}) {
           <div className="scroller-inner card d-flex flex-column justify-content-around" id={cardID} >
             <img className="photo" src={photo} alt={photoAlt}></img>
             <div className="title">{title}</div>
-            <div className="description">{description}</div>
+            <div className="description text-white">{description}</div>
           </div>
         </>
     )
