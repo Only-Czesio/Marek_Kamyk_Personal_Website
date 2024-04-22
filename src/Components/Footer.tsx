@@ -15,27 +15,27 @@ export default function Footer() {
                     <p>Video Games : Dayz, Dota2, Factorio</p>
                     <p>Instruments : classic and acoustic guitar, piano</p>
                     <p>Books : Fantasy, Psychology, Philosophy</p>
-                    <p>Astronomy : Space and time, black and warpholes</p>
+                    <p>Astronomy : Space and time, blackholes and warpholes</p>
                 </div>
                 <div className="footer-container siteMap d-flex flex-column gap-3 justify-content-center">
                     <h2 className='gold'>SiteMap :</h2>
                     <a href="/Marek_Kamyk_Personal_Website">I will take you to the start</a>
-                    <a href="/blog">Let's go read my blog</a>
-                    <a href="/portfolio">I can show you my projects</a>
-                    <a href="/Marek_Kamyk_Personal_Website/contact">Contact me, let's talk</a>
+                    <a href="/Marek_Kamyk_Personal_Website/Blog">Let's go read my blog</a>
+                    <a href="/Marek_Kamyk_Personal_Website/Portfolio">I can show you my projects</a>
+                    <a href="/Marek_Kamyk_Personal_Website/Contact">Contact me, let's talk</a>
                 </div>
                 <div className="footer-container socialMedia d-flex gap-3 flex-column justify-content-center align-items-center">
                     <div>
-                    <FontAwesomeIcon icon={faFacebook} /> Facebook
+                    <a href="https://www.facebook.com/marek.kamyk.16" target="_blank" ><FontAwesomeIcon icon={faFacebook} /> Facebook</a>
                     </div>
                     <div>
-                    <FontAwesomeIcon icon={faInstagram} /> Instagram
+                    <a href="https://www.instagram.com/marek_kamyk_/" target="_blank" ><FontAwesomeIcon icon={faInstagram} /> Instagram</a>
                     </div>
                     <div>
-                    <FontAwesomeIcon icon={faGithub} /> Github
+                    <a href="https://github.com/Only-Czesio" target="_blank" ><FontAwesomeIcon icon={faGithub} /> Github</a>
                     </div>
                     <div>
-                    <FontAwesomeIcon icon={faEnvelope} /> E-mail me
+                    <a href="mailto:marek@kamyk.me" target="_blank" ><FontAwesomeIcon icon={faEnvelope} /> E-mail me</a>
                     </div>
                     
                 </div>
