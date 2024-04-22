@@ -36,8 +36,8 @@ export default function Introduction() {
                 <p>and maybe give me a chance.</p>
                 <p>I want to bring value to people lifes</p>
             </div>
-            <a href="/Marek_Kamyk_Personal_Website/Blog"><button className='btn white-text btn-mine mb-3'>Portfolio</button></a>
-            <a href="/Marek_Kamyk_Personal_Website/Portfolio"><button className='btn white-text btn-mine'>Blog</button></a>
+            <a href="/Marek_Kamyk_Personal_Website/Portfolio"><button className='btn white-text btn-mine mb-3'>Portfolio</button></a>
+            <a href="/Marek_Kamyk_Personal_Website/Blog"><button className='btn white-text btn-mine'>Blog</button></a>
             </div>
         </section>
         </>

@@ -12,10 +12,10 @@ export default function Footer() {
             <div className="footer white-text btn-color d-flex flex-row justify-content-between">
                 <div className="footer-container myInterests d-flex flex-column gap-3 justify-content-center">
                     <h2 className='gold'>Hobbies i have :</h2>
-                    <p>Video Games : Dayz, Dota2, Factorio</p>
-                    <p>Instruments : classic and acoustic guitar, piano</p>
-                    <p>Books : Fantasy, Psychology, Philosophy</p>
-                    <p>Astronomy : Space and time, blackholes and warpholes</p>
+                    <p className='gold'>Video Games : Dayz, Dota2, Factorio</p>
+                    <p className='gold'>Instruments : classic and acoustic guitar, piano</p>
+                    <p className='gold'>Books : Fantasy, Psychology, Philosophy</p>
+                    <p className='gold'>Astronomy : Space and time, blackholes and warpholes</p>
                 </div>
                 <div className="footer-container siteMap d-flex flex-column gap-3 justify-content-center">
                     <h2 className='gold'>SiteMap :</h2>
