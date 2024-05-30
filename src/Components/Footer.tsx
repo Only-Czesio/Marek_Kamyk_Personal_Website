@@ -40,7 +40,7 @@ export default function Footer() {
                     
                 </div>
             </div>
-            <footer className='blackFoot'>Copyrights Kamyk Marek 2024 &copy;</footer>
+            <footer className='blackFoot'>Copyrights Kamyk Marek May 2024 &copy;</footer>
         </>
     )
 }
