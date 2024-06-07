@@ -1,5 +1,6 @@
 import "../App.scss";
 import logo from "../public/LOGO.jpg";
+import { Link } from "react-router-dom";
 
 export default function NavigationBar() {
   return (
@@ -11,29 +12,23 @@ export default function NavigationBar() {
             width="100"
             height="50"
             alt="Marek Kamyk personal logo"
-          ></img>
+          />
         </div>
         <nav className="m-2">
-          <a href="/Marek_Kamyk_Personal_Website">
+          <ul className="d-flex flex-row list-unstyled">
             <li key="1" className="shrink_me btn btn-color mx-5 shadow">
-              Home
+              <Link to="/" className="nav-link">Home</Link>
             </li>
-          </a>
-          <a href="/Marek_Kamyk_Personal_Website/Portfolio">
-            <li key="2" className="shrink_me btn btn-color shadow ">
-              Portfolio
+            <li key="2" className="shrink_me btn btn-color shadow mx-5">
+              <Link to="/Portfolio" className="nav-link">Portfolio</Link>
             </li>
-          </a>
-          <a href="/Marek_Kamyk_Personal_Website/Blog">
             <li key="3" className="shrink_me btn btn-color shadow mx-5">
-              Blog
+              <Link to="/Blog" className="nav-link">Blog</Link>
             </li>
-          </a>
-          <a href="/Marek_Kamyk_Personal_Website/Contact">
-            <li key="4" className="shrink_me btn btn-color shadow">
-              Contact
+            <li key="4" className="shrink_me btn btn-color shadow mx-5">
+              <Link to="/Contact" className="nav-link">Contact</Link>
             </li>
-          </a>
+          </ul>
         </nav>
       </div>
     </>

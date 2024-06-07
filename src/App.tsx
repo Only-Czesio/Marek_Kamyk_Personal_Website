@@ -4,8 +4,7 @@ import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import NoPage from "./pages/NoPage";
-
-import { useLocation, BrowserRouter, Routes, Route } from "react-router-dom";
+import { useLocation, HashRouter, Routes, Route } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 
 interface LocationProviderProps {
@@ -17,15 +16,13 @@ function LocationProvider({ children }: LocationProviderProps) {
 }
 
 function App() {
-
- 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <LocationProvider>
           <RoutesWithAnimation />
         </LocationProvider>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
@@ -35,25 +32,14 @@ function RoutesWithAnimation() {
 
   return (
     <Routes location={location} key={location.key}>
-           <Route index element={<Home />} />
-            <Route path="/Marek_Kamyk_Personal_Website" element={<Home />} />
-            <Route
-              path="/Marek_Kamyk_Personal_Website/Blog"
-              element={<Blog />}
-            />
-            <Route
-              path="/Marek_Kamyk_Personal_Website/Contact"
-              element={<Contact />}
-            />
-            <Route
-              path="/Marek_Kamyk_Personal_Website/Portfolio"
-              element={<Portfolio />}
-            />
-            <Route path="*" element={<NoPage />} />
+      <Route index element={<Home />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/Portfolio" element={<Portfolio />} />
+      <Route path="/Blog" element={<Blog />} />
+      <Route path="/Contact" element={<Contact />} />
+      <Route path="*" element={<NoPage />} />
     </Routes>
   );
 }
-
-
 
 export default App;
