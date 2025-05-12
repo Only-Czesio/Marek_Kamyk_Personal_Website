@@ -1,6 +1,6 @@
 # React + TypeScript + Vite
 
-# Only-Czesio.github.io
+# [Only-Czesio.github.io](https://only-czesio.github.io/Marek_Kamyk_Personal_Website/)
 # This is my personal website and blog which i will create from today forward
 # It will contain my portfolio, blog sector with ability to add comments and contact me, my CV and all links to social media
 
